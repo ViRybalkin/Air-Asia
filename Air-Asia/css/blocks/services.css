@@ -1,0 +1,45 @@
+
+.services{
+  margin-bottom: 65px;
+}
+
+.services__item{
+  margin-bottom: 47px;
+}
+
+.service{
+  display: flex;
+}
+
+.services__item:last-child{
+  margin-bottom: 0;
+}
+
+.services__pic{
+  margin-right: 4%;
+  width: 41%;
+}
+
+.services__content{
+  flex: 1;
+  padding: 13px 0px;
+}
+
+.services__title{
+  color: #000;
+  margin-bottom: 27px;
+}
+
+.services__desc{
+  margin-bottom: 32px;
+}
+
+.services__desc p{
+  line-height: 27px;
+  margin-bottom: 20px;
+  color: #303030;
+}
+
+.services__desc p:last-child{
+  margin-bottom: 0;
+}

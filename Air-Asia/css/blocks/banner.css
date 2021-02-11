@@ -1,0 +1,23 @@
+.banner{
+  background:url(../../img/background/Rectangle.png) center center no-repeat;
+  min-height: 360px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.banner::after{
+  content: url(../../img/content/couple.png);
+  width:480px;
+  height:340px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 22%;
+}
+
+.banner__content{
+  max-width: 50%;
+}
+
+

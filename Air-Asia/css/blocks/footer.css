@@ -1,0 +1,20 @@
+.section-footer{
+  background: #001821;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 0;
+}
+
+.footer__col{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__col--align--right{
+  justify-content: flex-end;
+}

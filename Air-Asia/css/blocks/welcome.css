@@ -1,0 +1,47 @@
+.welcome-page{
+  background: url(../../img/background/bg.png);
+  width: 1920px;
+  height: 947px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.welcome-page__content{
+  margin-top: 135px;
+  position: relative;
+  animation: fadeIn 1s linear 1s forwards;
+  transform: scale(0);
+}
+
+.welcome-page::before{
+  content: "";
+  position: absolute;
+  top: 38%;
+  left: 35%;
+  display: block;
+  background: url(../../img/background/shades.png);
+  width: 591px;
+  height: 248px;
+  animation: bounce 1s linear 1s forwards;
+  transform: scale(0);
+}
+
+
+.welcome-page__text{
+  margin-bottom: 45px;
+}
+
+.welcome-page__text p{
+  font-size: 18px;
+}
+
+.welcome-page__btn .btn--color--red{
+  transition: 0.4s;
+}
+
+.welcome-page__btn .btn--color--red:hover{
+  background: #DA0100;
+}
+

@@ -1,0 +1,90 @@
+.form__title{
+  margin-bottom: 53px;
+}
+
+
+.form__contacts{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.form__input{
+  font-size: 18px;
+  padding-left: 30px;
+  min-height: 65px;
+  width: 49%;
+  border-radius: 5px;
+  transition: .4s;
+}
+
+.form__input:focus,
+.form__text:focus{
+  border:1px solid #F5170E;
+}
+
+.form__comment{
+  margin-bottom: 18px;
+}
+
+.form__text{
+  font-size: 18px;
+  padding-left: 30px;
+  padding-top: 33px;
+  border-radius: 5px;
+  transition: .4s;
+}
+
+.form__selection{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 23px;
+}
+
+.form__selection p{
+  font-size: 18px;
+}
+
+.form__question{
+  padding-top: 11px;
+  width: 47%;
+}
+
+.form__choice{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form__label{
+  justify-content: space-between;
+  margin-bottom: 7px;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.form__label:nth-child(5n+1){
+  margin-left: 0;
+}
+
+.form__checkbox{
+  display: none;
+}
+
+.form__checkbox:checked ~ .form__check{
+  background: #B9EAE4;
+}
+
+.form__check{
+  font-size: 13px;
+  background: #E7E7E7;
+  border-radius: 35px;
+  padding: 10px 15px;
+}
+
+.form__button{
+  text-align: right;
+}
+
+.form__button input:last-child{
+  margin-left: 10px;
+}

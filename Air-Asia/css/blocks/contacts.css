@@ -1,0 +1,15 @@
+.contacts{
+  font-style: normal;
+  text-align: right;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.contacts__desc{
+  color: #9A9A9A;
+  font-size: 11px;
+}
+
+.contacts__phone{
+  font-size: 26px;
+}
