@@ -1,7 +1,7 @@
 .welcome-page{
   background: url(../../img/background/bg.png);
-  width: 1920px;
-  height: 947px;
+  width: 100%;
+  min-height: 947px;
   display: flex;
   flex-direction: column;
   justify-content: center;
