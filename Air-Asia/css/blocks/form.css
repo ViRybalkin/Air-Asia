@@ -12,14 +12,16 @@
 .form__input{
   font-size: 18px;
   padding-left: 30px;
-  min-height: 65px;
-  width: 49%;
-  border-radius: 5px;
   transition: .4s;
+  border: 1px solid transparent;
 }
 
-.form__input:focus,
-.form__text:focus{
+.contacts__input{
+  min-height: 65px;
+  width: 49%;
+}
+
+.form__input:focus{
   border:1px solid #F5170E;
 }
 
@@ -27,12 +29,8 @@
   margin-bottom: 18px;
 }
 
-.form__text{
-  font-size: 18px;
-  padding-left: 30px;
+.comment__input{
   padding-top: 33px;
-  border-radius: 5px;
-  transition: .4s;
 }
 
 .form__selection{
