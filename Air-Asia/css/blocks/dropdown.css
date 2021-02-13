@@ -1,6 +1,8 @@
 .dropdown{
   position: relative;
   display: inline-block;
+  width: max-content;
+  margin-left: auto;
 }
 
 .dropdown .dropdown__menu{
@@ -31,6 +33,7 @@
   padding: 15px;
   top: 48%;
   right: -999px;
+  width: 151px;
   border-radius: 5px;
 }
 
