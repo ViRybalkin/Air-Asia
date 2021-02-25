@@ -1,8 +1,20 @@
 .hot-tours__title{
-  display: inline-block;
-  margin-right: 4px;
   margin-bottom: 50px;
   letter-spacing: 2px;
+  display:inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+.hot-tours__title::after{
+  content: "";
+  position: absolute;
+  right: -30px;
+  width: 21px;
+  height: 28px;
+  background: url(../../img/icons/flame.png);
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 
